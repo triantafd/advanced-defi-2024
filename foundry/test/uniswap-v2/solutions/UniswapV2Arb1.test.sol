@@ -66,7 +66,7 @@ contract UniswapV2Arb1Test is Test {
                 router1: SUSHISWAP_V2_ROUTER_02,
                 tokenIn: DAI,
                 tokenOut: WETH,
-                amountIn: 10 * 1e18,
+                amountIn: 10 * 1e18, // 10 DAI
                 minProfit: 1
             })
         );
